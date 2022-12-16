@@ -6,30 +6,30 @@
     
   <style>
     body{
-      background-color: lightskyblue;
+      background-color: darkcyan;
     }
     #pageTitle{
-      color: black;
+      color: lightgray;
     }
   
     #backgroundInformationQuestion{
-      color: black;
+      color: lightgray;
     }
     
     #dataCollectionProcess{
-      color: black;
+      color: lightgray;
     }
     
     #methodologyP1{
-      color: black;
+      color: lightgray;
     }
     
     #results{
-      color: black;
+      color: lightgray;
     }
 
     #methodologyP2{
-      color: black;
+      color: lightgray;
     }
   </style>
   
@@ -39,24 +39,26 @@
         Analysing Salaries of Undergraduate Majors
       </h1>
       <p id = backgroundInformationQuestion>
-        Through out your entire life, you are essentially asked, what do you want your future to be? With the chances of someone reaching their ideal future releying on the classes and degrees they get in college. So to help reach your desired future, I found the best underraduate majors (atleast from a profit based veiw point) by answering the question, which five undergraduate majors allow for the highest, starting median revenue when entering the job force? 
+        Throughout your entire life, you are essentially asked, what do you want your future to be? With the chances of someone reaching their ideal future relying on the classes and degrees they take in college. So to help reach your desired future, I found the best undergraduate majors (at least from a profit based view point) by answering the question, which five undergraduate majors allow for the highest, starting median revenue when entering the job force? 
       </p>
       <p2 id = dataCollectionProcess>
-        I began by finding a table on Kaggle titled, Where it Pays to Attend College, in which undergraduate majors and there median starting revenues were given amongst other infromation. Using Python, Pandas, and Seaborn I was able to clean the data, find the quantiles of the revenues, and make a bar graph containing the five highest paying revenues. 
+        I began by finding a table on Kaggle titled, Where it Pays to Attend College, in which undergraduate majors and their median starting revenues were given amongst other information. Using Python, Pandas, and Seaborn I was able to clean the data, find the quartiles of the revenues, and make a bar graph containing the five highest paying revenues. 
       </p2>
       <br>
       <embed type="image/png" src="StatandBarGraph.png" width=75% height=65%>
       <br>
       <p3 id = methodologyP1>
-        Explain why graph and stat were used.
+        The bar graph is used to represent the data as it's categorical, meaning it could be separated/grouped by a qualitative characteristic (in this case, undergraduate majors), which is best shown using a bar graph. Along with that, the quartiles were used to show the skewing of the data, with the difference of the upper quartile and middle quartile being greater than the difference of the middle quartile and lower quartile, showing that the revenue skews upward. Meaning the top five revenues are the exceptions, not the rule, and therefore the majors will have a distinct increase in revenue from the rest of the majors (something also seen in the histogram below). 
       </p3>
       <br>
+      <embed type="image/png" src="histogramOfStartingMedianSalary.png" width=75% height=65%>
+      <br>
       <p4 id = results>
-        What does the data tell us, what are the results?
+        According to the bar graph above, we can see that the top five most profitable undergraduate majors when entering into the workforce are physician assistant, chemical engineering, computer engineering, electrical engineering, and mechanical engineering. Meaning that if you want to have the best revenue right after getting your undergraduate major, choose one of those five.  
       </p4>
       <br>
       <p5 id = methodologyP2>
-        Explain threats to validaty and reliablity of data.
+        Explain threats to validaty and reliablity of data. One threat to validaty is that the kaggle table included data found on 
       </p5>
       <br>
       <embed type="text/html" src="Quarter 2 Final Project.html" width=100% height=350>
